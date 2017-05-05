@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622A43BF1EA6187E0024D0F2 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622A43BE1EA6187E0024D0F2 /* DetailsVC.swift */; };
+		622A43C11EA620DD0024D0F2 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622A43C01EA620DD0024D0F2 /* ReviewsVC.swift */; };
+		622A43C31EA621BB0024D0F2 /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622A43C21EA621BB0024D0F2 /* AddReviewVC.swift */; };
+		622A43C51EA623C20024D0F2 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622A43C41EA623C20024D0F2 /* ReviewCell.swift */; };
 		62FB5A9B1E9AFB0E005F2456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5A9A1E9AFB0E005F2456 /* AppDelegate.swift */; };
-		62FB5A9D1E9AFB0E005F2456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5A9C1E9AFB0E005F2456 /* ViewController.swift */; };
 		62FB5AA01E9AFB0E005F2456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FB5A9E1E9AFB0E005F2456 /* Main.storyboard */; };
 		62FB5AA21E9AFB0E005F2456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FB5AA11E9AFB0E005F2456 /* Assets.xcassets */; };
 		62FB5AA51E9AFB0E005F2456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FB5AA31E9AFB0E005F2456 /* LaunchScreen.storyboard */; };
 		62FB5AB01E9AFB0E005F2456 /* api_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AAF1E9AFB0E005F2456 /* api_clientTests.swift */; };
+		62FB5AC01E9AFF11005F2456 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5ABF1E9AFF11005F2456 /* MainVC.swift */; };
+		62FB5AC21E9AFF64005F2456 /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AC11E9AFF64005F2456 /* FoodTruck.swift */; };
+		62FB5AC41E9B02F5005F2456 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AC31E9B02F5005F2456 /* Review.swift */; };
+		62FB5AC61E9B0508005F2456 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AC51E9B0508005F2456 /* DataService.swift */; };
+		62FB5AC81E9B0661005F2456 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AC71E9B0661005F2456 /* Constants.swift */; };
+		62FB5ACA1E9B903C005F2456 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AC91E9B903C005F2456 /* AuthService.swift */; };
+		62FB5ACC1E9B9ABC005F2456 /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5ACB1E9B9ABC005F2456 /* FoodTruckCell.swift */; };
+		62FB5ACF1E9CDE29005F2456 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5ACD1E9CDE29005F2456 /* LogInVC.swift */; };
+		62FB5AD01E9CDE29005F2456 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FB5ACE1E9CDE29005F2456 /* LogInVC.xib */; };
+		62FB5AD21E9CEC37005F2456 /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB5AD11E9CEC37005F2456 /* AddTruckVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		622A43BE1EA6187E0024D0F2 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		622A43C01EA620DD0024D0F2 /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		622A43C21EA621BB0024D0F2 /* AddReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		622A43C41EA623C20024D0F2 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		62FB5A971E9AFB0E005F2456 /* api-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FB5A9A1E9AFB0E005F2456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62FB5A9C1E9AFB0E005F2456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62FB5A9F1E9AFB0E005F2456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62FB5AA11E9AFB0E005F2456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FB5AA41E9AFB0E005F2456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +52,16 @@
 		62FB5AAB1E9AFB0E005F2456 /* api-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "api-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FB5AAF1E9AFB0E005F2456 /* api_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_clientTests.swift; sourceTree = "<group>"; };
 		62FB5AB11E9AFB0E005F2456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FB5ABF1E9AFF11005F2456 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		62FB5AC11E9AFF64005F2456 /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		62FB5AC31E9B02F5005F2456 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		62FB5AC51E9B0508005F2456 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		62FB5AC71E9B0661005F2456 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62FB5AC91E9B903C005F2456 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		62FB5ACB1E9B9ABC005F2456 /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		62FB5ACD1E9CDE29005F2456 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		62FB5ACE1E9CDE29005F2456 /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
+		62FB5AD11E9CEC37005F2456 /* AddTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +103,11 @@
 		62FB5A991E9AFB0E005F2456 /* api-client */ = {
 			isa = PBXGroup;
 			children = (
-				62FB5A9A1E9AFB0E005F2456 /* AppDelegate.swift */,
-				62FB5A9C1E9AFB0E005F2456 /* ViewController.swift */,
-				62FB5A9E1E9AFB0E005F2456 /* Main.storyboard */,
-				62FB5AA11E9AFB0E005F2456 /* Assets.xcassets */,
-				62FB5AA31E9AFB0E005F2456 /* LaunchScreen.storyboard */,
-				62FB5AA61E9AFB0E005F2456 /* Info.plist */,
+				62FB5ABE1E9AFEBC005F2456 /* Model */,
+				62FB5ABD1E9AFEB1005F2456 /* View */,
+				62FB5ABC1E9AFEAF005F2456 /* Controller */,
+				62FB5ABB1E9AFEAC005F2456 /* Resources */,
+				62FB5ABA1E9AFEA8005F2456 /* Services */,
 			);
 			path = "api-client";
 			sourceTree = "<group>";
@@ -94,6 +119,60 @@
 				62FB5AB11E9AFB0E005F2456 /* Info.plist */,
 			);
 			path = "api-clientTests";
+			sourceTree = "<group>";
+		};
+		62FB5ABA1E9AFEA8005F2456 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				62FB5AC51E9B0508005F2456 /* DataService.swift */,
+				62FB5AC91E9B903C005F2456 /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		62FB5ABB1E9AFEAC005F2456 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62FB5AA61E9AFB0E005F2456 /* Info.plist */,
+				62FB5AA11E9AFB0E005F2456 /* Assets.xcassets */,
+				62FB5AC71E9B0661005F2456 /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		62FB5ABC1E9AFEAF005F2456 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62FB5A9A1E9AFB0E005F2456 /* AppDelegate.swift */,
+				62FB5ABF1E9AFF11005F2456 /* MainVC.swift */,
+				62FB5ACD1E9CDE29005F2456 /* LogInVC.swift */,
+				62FB5AD11E9CEC37005F2456 /* AddTruckVC.swift */,
+				622A43BE1EA6187E0024D0F2 /* DetailsVC.swift */,
+				622A43C01EA620DD0024D0F2 /* ReviewsVC.swift */,
+				622A43C21EA621BB0024D0F2 /* AddReviewVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		62FB5ABD1E9AFEB1005F2456 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62FB5A9E1E9AFB0E005F2456 /* Main.storyboard */,
+				62FB5AA31E9AFB0E005F2456 /* LaunchScreen.storyboard */,
+				62FB5ACE1E9CDE29005F2456 /* LogInVC.xib */,
+				62FB5ACB1E9B9ABC005F2456 /* FoodTruckCell.swift */,
+				622A43C41EA623C20024D0F2 /* ReviewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		62FB5ABE1E9AFEBC005F2456 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62FB5AC11E9AFF64005F2456 /* FoodTruck.swift */,
+				62FB5AC31E9B02F5005F2456 /* Review.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +262,7 @@
 			files = (
 				62FB5AA51E9AFB0E005F2456 /* LaunchScreen.storyboard in Resources */,
 				62FB5AA21E9AFB0E005F2456 /* Assets.xcassets in Resources */,
+				62FB5AD01E9CDE29005F2456 /* LogInVC.xib in Resources */,
 				62FB5AA01E9AFB0E005F2456 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,8 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62FB5A9D1E9AFB0E005F2456 /* ViewController.swift in Sources */,
+				622A43C31EA621BB0024D0F2 /* AddReviewVC.swift in Sources */,
 				62FB5A9B1E9AFB0E005F2456 /* AppDelegate.swift in Sources */,
+				62FB5AC41E9B02F5005F2456 /* Review.swift in Sources */,
+				62FB5AC01E9AFF11005F2456 /* MainVC.swift in Sources */,
+				62FB5AC21E9AFF64005F2456 /* FoodTruck.swift in Sources */,
+				62FB5AC61E9B0508005F2456 /* DataService.swift in Sources */,
+				62FB5AC81E9B0661005F2456 /* Constants.swift in Sources */,
+				62FB5AD21E9CEC37005F2456 /* AddTruckVC.swift in Sources */,
+				62FB5ACA1E9B903C005F2456 /* AuthService.swift in Sources */,
+				622A43C11EA620DD0024D0F2 /* ReviewsVC.swift in Sources */,
+				62FB5ACC1E9B9ABC005F2456 /* FoodTruckCell.swift in Sources */,
+				62FB5ACF1E9CDE29005F2456 /* LogInVC.swift in Sources */,
+				622A43BF1EA6187E0024D0F2 /* DetailsVC.swift in Sources */,
+				622A43C51EA623C20024D0F2 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +504,7 @@
 				62FB5AB61E9AFB0E005F2456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62FB5AB71E9AFB0E005F2456 /* Build configuration list for PBXNativeTarget "api-clientTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +513,7 @@
 				62FB5AB91E9AFB0E005F2456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
